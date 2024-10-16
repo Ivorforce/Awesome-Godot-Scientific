@@ -15,4 +15,16 @@ To solve this issue, many smart people have optimized common operations, such as
 
 ## Contents
 
-TBD
+### Add-Ons
+
+- [IREE.gd](https://github.com/iree-gd/iree.gd): Running Pre-trained Machine Learning Model in Godot.
+- [NumDot](https://numdot.readthedocs.io/en/latest/index.html): Tensor math and scientific computation for the Godot game engine.
+- [OpenCV for Godot](https://github.com/matt-s-clark/godot-gdextension-opencv): Godot bindings for the computer vision library [OpenCV](https://opencv.org).
+
+### Scripts
+
+_None yet._
+
+### Tutorials
+
+_None yet._
