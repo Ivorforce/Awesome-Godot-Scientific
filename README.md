@@ -11,7 +11,7 @@ For the sake of this repository, scientific software is software that is commonl
 
 ### What is hyperoptimized computation?
 
-General-purpose programming is very useful, but it is not very fast. When you have large amounts of data, your program will start to become very slow.
+General-purpose programming is very useful. But when you have large amounts of data, your program can start to slow down a lot. This is because general purpose programming can waste a lot of CPU cycles for duplicated or unnecessary logic.
 
 To solve this issue, many smart people have optimized common operations, such as addition, matrix multiplications, or even convolutions. This comes in many forms, but often involves hyperoptimized CPU or GPU instructions such as [SIMD](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data) or [CUDA](https://developer.nvidia.com/cuda-zone#:~:text=CUDA®%20is%20a%20parallel,harnessing%20the%20power%20of%20GPUs.). If you want your code to be fast, you can use these implementations to speed it up.
 
