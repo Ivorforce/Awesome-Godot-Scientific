@@ -1,7 +1,7 @@
-# Awesome-Godot-Scientific
+# Awesome Godot Scientific / Computation
 A curated list of [free](https://www.gnu.org/philosophy/free-sw.html) add-ons and scripts for Godot, but specifically for hyperoptimized computation and scientific methodology.
 
-You can find a general list for free Godot stuff in Godot's own [Awesome-Godot](https://github.com/godotengine/awesome-godot).
+You can find a general list for free Godot stuff in Godot's own [Awesome Godot](https://github.com/godotengine/awesome-godot).
 
 ### What is scientific software?
 
