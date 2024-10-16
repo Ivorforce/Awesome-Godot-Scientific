@@ -3,6 +3,8 @@ A curated list of [free](https://www.gnu.org/philosophy/free-sw.html) add-ons an
 
 You can find a general list for free Godot stuff in Godot's own [Awesome Godot](https://github.com/godotengine/awesome-godot).
 
+If you find this interesting, you may want to join our Godot Scientific Discord: [https://discord.gg/mwS2sW6V5M](https://discord.gg/mwS2sW6V5M).
+
 ### What is scientific software?
 
 For the sake of this repository, scientific software is software that is commonly used by scientists to achieve their goals. You may have heard of software such as [NumPy](https://numpy.org), [tensorflow](https://www.tensorflow.org) and [MatLab](https://www.mathworks.com/products/matlab.html). These are the kinds of things we are talking about.
