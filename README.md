@@ -15,16 +15,17 @@ To solve this issue, many smart people have optimized common operations, such as
 
 ## Contents
 
-### Add-Ons
+### Add-Ons (a-z)
 
-- [IREE.gd](https://github.com/iree-gd/iree.gd): Running Pre-trained Machine Learning Model in Godot.
+- [GDMP](https://github.com/j20001970/GDMP): Running machine learning learning models in Godot, with [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide).
+- [IREE.gd](https://github.com/iree-gd/iree.gd): Running machine learning models in Godot, with IREE.
 - [NumDot](https://numdot.readthedocs.io/en/latest/index.html): Tensor math and scientific computation for the Godot game engine.
-- [OpenCV for Godot](https://github.com/matt-s-clark/godot-gdextension-opencv): Godot bindings for the computer vision library [OpenCV](https://opencv.org).
+- [OpenCV for Godot](https://github.com/matt-s-clark/godot-gdextension-opencv): Bringing computer vision to Godot, with [OpenCV](https://opencv.org).
 
-### Scripts
+### Scripts (a-z)
 
 _None yet._
 
-### Tutorials
+### Tutorials (a-z)
 
 _None yet._
