@@ -18,8 +18,8 @@ To solve this issue, many smart people have optimized common operations, such as
 ### Add-Ons (a-z)
 
 - [GDMP](https://github.com/j20001970/GDMP): Running machine learning learning models in Godot, with [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide).
-- [IREE.gd](https://github.com/iree-gd/iree.gd): Running machine learning models in Godot, with IREE.
-- [NumDot](https://numdot.readthedocs.io/en/latest/index.html): Tensor math and scientific computation for the Godot game engine.
+- [IREE.gd](https://github.com/iree-gd/iree.gd): Running machine learning models in Godot, with [IREE](https://iree.dev).
+- [NumDot](https://numdot.readthedocs.io/en/latest/index.html): NumPy-like tensor math and scientific computation for Godot, using [xtensor](https://xtensor.readthedocs.io/en/latest/).
 - [OpenCV for Godot](https://github.com/matt-s-clark/godot-gdextension-opencv): Bringing computer vision to Godot, with [OpenCV](https://opencv.org).
 
 ### Scripts (a-z)
