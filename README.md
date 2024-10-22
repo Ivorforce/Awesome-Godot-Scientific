@@ -15,7 +15,7 @@ General-purpose programming is very useful. But when you have large amounts of d
 
 To solve this issue, many smart people have optimized common operations, such as addition, matrix multiplications, or even convolutions. This comes in many forms, but often involves hyperoptimized CPU or GPU instructions such as [SIMD](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data) or [CUDA](https://developer.nvidia.com/cuda-zone#:~:text=CUDA®%20is%20a%20parallel,harnessing%20the%20power%20of%20GPUs.). If you want your code to be fast, you can use these implementations to speed it up.
 
-### Use-Case Decider
+### I need help deciding how to implement my algorithm!
 
 If you have a computation task, and you aren't sure where to start with optimization, this flowchart may help you decide on a particular strategy to use. The flowchart will suggest you the option that involves the least amount of effort, depending on your use-case. Keep in mind it makes a _recommendation_, and should not be regarded an authority as to which library actually fits your use-case best.
 
