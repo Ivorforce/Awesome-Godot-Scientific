@@ -31,7 +31,7 @@ flowchart TD
     Vectorizable -->|Yes| Convenient(Do you just want the most convenient option?)
     Convenient -->|No| Static(Is your problem representable by a static compute graph?)
     Convenient -->|Yes| NumDot(Use NumDot.)
-    Static -->|Yes, and I don't mind using Python to build it.| IREE(Use IREE.gd.)
+    Static -->|Yes, and I don't mind using Python (or something else) to build it.| IREE(Use IREE.gd.)
     Static -->|No| GPU("Can your algorithm be run on the GPU?")
     GPU -->|Yes, and I don't mind putting in extra effort for extra speed.| ComputeShader(Use compute shaders.)
     GPU -->|No| NumDot(Use NumDot.)
