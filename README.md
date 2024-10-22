@@ -59,3 +59,7 @@ _None yet._
 
 - [NumDot Tutorials](https://numdot.readthedocs.io/en/latest/how-to-use/getting_started.html) are available as part of its [documentation](https://numdot.readthedocs.io/en/latest/index.html).
 
+### Other
+
+- Ongoing community poll: [Godot Science and Computation Survey / 2024](https://forms.gle/PVyRcQZpifjMxdKB8)
+    - [View the current results here](https://docs.google.com/forms/d/11UK1JR_MxvxokblTPuejdHk04WufhyrPwfnInPcvisA)
