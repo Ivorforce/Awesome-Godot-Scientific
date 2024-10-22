@@ -29,6 +29,7 @@ To solve this issue, many smart people have optimized common operations, such as
 
 _None yet._
 
-### Tutorials (a-z)
+### Tutorials and Guides (a-z)
 
-_None yet._
+- [NumDot Tutorials](https://numdot.readthedocs.io/en/latest/how-to-use/getting_started.html) are available as part of its [documentation](https://numdot.readthedocs.io/en/latest/index.html).
+
