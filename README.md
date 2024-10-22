@@ -17,15 +17,23 @@ To solve this issue, many smart people have optimized common operations, such as
 
 ### Use-Case Decider
 
-Here you can find a table of recommendations by use-case. This is not hard data, but rather a subjective interpretation made by us. Ultimately, you'll have to decide for yourself. The use-cases are the most popular from our survey: https://forms.gle/PVyRcQZpifjMxdKB8
+If you have a computation task, and you aren't sure where to start with optimization, this flowchart may help you decide on a particular strategy to use:
 
-|                   | Desktop Export | Performance | # Features | Convenience | Real-Time       | Web Export | Size |
-|-------------------|----------------|-------------|------------|-------------|-----------------|------------|------|
-| Python for Godot  | +              | +           | ++         | o           | o               | --         | --   |
-| NumDot            | ++             | +           | o          | ++          | +               | WIP        | o    |
-| IREE.gd           | ++             | ++          | o          | ++          | CPU Yes, GPU no | ++         | ++   |
-| OpenCV for Python | WIP            | +           | o          | WIP         | +               | WIP        | -    |
-| Compute Shaders   | ++             | ++          | -          | --          | GPU Yes, CPU no | ++         | ++   |
+```mermaid
+flowchart TD
+    Start["(Start)<br>Is plain GDScript / C# sufficient?"] -->|No| Vectorizable(Is your problem parallelizable / vectorizable?)
+    Start -->|Yes| GDScript(Use GDScript / C#.)
+    Vectorizable -->|No| GDExtension(Write a custom GDExtension.)
+    Vectorizable -->|Yes| UseCase(Does any library specifically cover your algorithm?)
+    UseCase -->|No| Convenient(Do you just want the most convenient option?)
+    UseCase -->|Yes| UseCase-Done(Use the library that covers your algorithm.)
+    Convenient -->|Yes| NumDot(Use NumDot.)
+    Convenient -->|No| Static(Is your problem representable by a static compute graph?)
+    Static -->|Yes, and I don't mind using Python to build it.| IREE(Use IREE.gd.)
+    Static -->|No| GPU("Can your algorithm be run on the GPU?")
+    GPU -->|Yes, and I don't mind putting in extra effort for extra speed.| ComputeShader(Use compute shaders.)
+    GPU -->|No| NumDot(Use NumDot.)
+```
 
 ## Contents
 
