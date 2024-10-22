@@ -15,6 +15,18 @@ General-purpose programming is very useful. But when you have large amounts of d
 
 To solve this issue, many smart people have optimized common operations, such as addition, matrix multiplications, or even convolutions. This comes in many forms, but often involves hyperoptimized CPU or GPU instructions such as [SIMD](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data) or [CUDA](https://developer.nvidia.com/cuda-zone#:~:text=CUDA®%20is%20a%20parallel,harnessing%20the%20power%20of%20GPUs.). If you want your code to be fast, you can use these implementations to speed it up.
 
+### Use-Case Decider
+
+Here you can find a table of recommendations by use-case. This is not hard data, but rather a subjective interpretation made by us. Ultimately, you'll have to decide for yourself. The use-cases are the most popular from our survey: https://forms.gle/PVyRcQZpifjMxdKB8
+
+|                   | Desktop Export | Performance | # Features | Convenience | Real-Time       | Web Export | Size |
+|-------------------|----------------|-------------|------------|-------------|-----------------|------------|------|
+| Python for Godot  | +              | +           | ++         | o           | o               | --         | --   |
+| NumDot            | ++             | +           | o          | ++          | +               | WIP        | o    |
+| IREE.gd           | ++             | ++          | o          | ++          | CPU Yes, GPU no | ++         | ++   |
+| OpenCV for Python | WIP            | +           | o          | WIP         | +               | WIP        | -    |
+| Compute Shaders   | ++             | ++          | -          | --          | GPU Yes, CPU no | ++         | ++   |
+
 ## Contents
 
 ### Add-Ons (a-z)
