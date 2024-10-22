@@ -20,8 +20,12 @@ To solve this issue, many smart people have optimized common operations, such as
 If you have a computation task, and you aren't sure where to start with optimization, this flowchart may help you decide on a particular strategy to use. The flowchart will suggest you the option that involves the least amount of effort, depending on your use-case. Keep in mind it makes a _recommendation_, and should not be regarded an authority as to which library actually fits your use-case best.
 
 ```mermaid
+---
+title: Which approach should I take for a computational problem in Godot?
+---
+
 flowchart TD
-    Start["(Start)<br>Is plain GDScript / C# sufficient?"] -->|No| ExistingLibrary(Does any existing library offer algorithms that can solve your probem?)
+    Start[Is plain GDScript / C# sufficient?] -->|No| ExistingLibrary(Does any existing library offer algorithms that can solve your probem?)
     Start -->|Yes| GDScript(Use GDScript / C#.)
     ExistingLibrary -->|Yes| UseExistingLibrary(Use a library that covers your problem.)
     ExistingLibrary -->|No| Export(Do you need to export your project for others to use?)
