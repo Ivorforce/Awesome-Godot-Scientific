@@ -17,7 +17,7 @@ To solve this issue, many smart people have optimized common operations, such as
 
 ### Use-Case Decider
 
-If you have a computation task, and you aren't sure where to start with optimization, this flowchart may help you decide on a particular strategy to use:
+If you have a computation task, and you aren't sure where to start with optimization, this flowchart may help you decide on a particular strategy to use. The flowchart will suggest you the option that involves the least amount of effort, depending on your use-case. Keep in mind it makes a _recommendation_, and should not be regarded an authority as to which library actually fits your use-case best.
 
 ```mermaid
 flowchart TD
