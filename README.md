@@ -21,14 +21,14 @@ If you have a computation task, and you aren't sure where to start with optimiza
 
 ```mermaid
 flowchart TD
-    Start["(Start)<br>Is plain GDScript / C# sufficient?"] -->|No| Vectorizable(Is your problem parallelizable / vectorizable?)
+    Start["(Start)<br>Is plain GDScript / C# sufficient?"] -->|No| ExistingLibrary(Does any existing library offer algorithms that can solve your probem?)
     Start -->|Yes| GDScript(Use GDScript / C#.)
+    ExistingLibrary -->|Yes| UseExistingLibrary(Use a library that covers your problem.)
+    ExistingLibrary -->|No| Vectorizable(Is your problem parallelizable / vectorizable?)
     Vectorizable -->|No| GDExtension(Write a custom GDExtension.)
-    Vectorizable -->|Yes| UseCase(Does any library specifically cover your algorithm?)
-    UseCase -->|No| Convenient(Do you just want the most convenient option?)
-    UseCase -->|Yes| UseCase-Done(Use the library that covers your algorithm.)
-    Convenient -->|Yes| NumDot(Use NumDot.)
+    Vectorizable -->|Yes| Convenient(Do you just want the most convenient option?)
     Convenient -->|No| Static(Is your problem representable by a static compute graph?)
+    Convenient -->|Yes| NumDot(Use NumDot.)
     Static -->|Yes, and I don't mind using Python to build it.| IREE(Use IREE.gd.)
     Static -->|No| GPU("Can your algorithm be run on the GPU?")
     GPU -->|Yes, and I don't mind putting in extra effort for extra speed.| ComputeShader(Use compute shaders.)
