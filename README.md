@@ -33,7 +33,7 @@ flowchart TD
     Export -->|No| Python(Use the Python GDExtension, and a fitting Python library.)
     Vectorizable -->|No| GDExtension(Write a custom GDExtension.)
     Vectorizable -->|Yes| Convenient(Do you just want the most convenient option?)
-    Convenient -->|No| Static(Is your problem representable by a static compute graph?)
+    Convenient -->|No| Static(Is your problem representable by a compute graph?)
     Convenient -->|Yes| NumDot(Use NumDot.)
     Static -->|"Yes, and I don't mind using Python (or something else) to build it."| IREE(Use IREE.gd.)
     Static -->|No| GPU("Can your algorithm be run on the GPU?")
