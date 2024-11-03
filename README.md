@@ -45,6 +45,7 @@ flowchart TD
 
 ### Add-Ons (a-z)
 
+- [GDBlas](https://github.com/dmrokan/gdblas): Real and Complex matrix algebra for Godot, wrapping around [Eigen](https://gitlab.com/libeigen/eigen), [Boost](https://www.boost.org/doc/libs/1_85_0/libs/geometry/doc/html/index.html) and [ODEInt](https://github.com/headmyshoulder/odeint-v2).
 - [GDMP](https://github.com/j20001970/GDMP): Running machine learning learning models in Godot, with [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide).
 - [IREE.gd](https://github.com/iree-gd/iree.gd): Running machine learning models in Godot, with [IREE](https://iree.dev).
 - [NumDot](https://numdot.readthedocs.io/en/latest/index.html): NumPy-like tensor math and scientific computation for Godot, using [xtensor](https://xtensor.readthedocs.io/en/latest/).
@@ -59,6 +60,7 @@ _None yet._
 ### Tutorials and Guides (a-z)
 
 - [NumDot Tutorials](https://numdot.readthedocs.io/en/latest/how-to-use/getting_started.html) are available as part of its [documentation](https://numdot.readthedocs.io/en/latest/index.html).
+- [Optimizing image processing w/ GDBlas](https://otomatik.art/content/godot-engine-threads-and-optimization).
 
 ### Other
 
