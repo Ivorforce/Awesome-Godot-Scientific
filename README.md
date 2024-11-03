@@ -58,7 +58,7 @@ flowchart TD
 #### Visualization / Plotting (a-z)
 
 - [EasyCharts](https://github.com/fenix-hub/godot-engine.easy-charts): Godot-native charts and plots.
-- [GDMatPlot](https://github.com/dmrokan/gdmatplot): Extensive plots and charts library, with [GNUPlot](GNUPlot).
+- [GDMatPlot](https://github.com/dmrokan/gdmatplot): Extensive plots and charts library, with [GNUPlot](http://www.gnuplot.info).
 
 ### Scripts (a-z)
 
