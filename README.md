@@ -43,7 +43,9 @@ flowchart TD
 
 ## Contents
 
-### Add-Ons (a-z)
+### Add-Ons
+
+#### Computation (a-z)
 
 - [GDBlas](https://github.com/dmrokan/gdblas): Real and Complex matrix algebra for Godot, wrapping around [Eigen](https://gitlab.com/libeigen/eigen), [Boost](https://www.boost.org/doc/libs/1_85_0/libs/geometry/doc/html/index.html) and [ODEInt](https://github.com/headmyshoulder/odeint-v2).
 - [GDMP](https://github.com/j20001970/GDMP): Running machine learning learning models in Godot, with [MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide).
@@ -52,6 +54,11 @@ flowchart TD
 - [OpenCV for Godot](https://github.com/matt-s-clark/godot-gdextension-opencv): Bringing computer vision to Godot, with [OpenCV](https://opencv.org).
 - [Python Extension](https://github.com/maiself/godot-python-extension): Write your Godot scripts and classes in Python.
 - [Py4Godot](https://github.com/niklas2902/py4godot): Write your Godot scripts and classes in Python.
+
+#### Visualization / Plotting (a-z)
+
+- [EasyCharts](https://github.com/fenix-hub/godot-engine.easy-charts): Godot-native charts and plots.
+- [GDMatPlot](https://github.com/dmrokan/gdmatplot): Extensive plots and charts library, with [GNUPlot](GNUPlot).
 
 ### Scripts (a-z)
 
