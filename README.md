@@ -59,6 +59,7 @@ flowchart TD
 
 - [EasyCharts](https://github.com/fenix-hub/godot-engine.easy-charts): Godot-native charts and plots.
 - [GDMatPlot](https://github.com/dmrokan/gdmatplot): Extensive plots and charts library, with [GNUPlot](http://www.gnuplot.info).
+- [GodPlot](https://github.com/onegm/GodPlot): Godot4 native graphing plugin. Works as @tool in the editor.
 
 ### Scripts (a-z)
 
