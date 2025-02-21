@@ -1,5 +1,5 @@
 # Awesome Godot Scientific / Computation
-A curated list of [free](https://www.gnu.org/philosophy/free-sw.html) add-ons and scripts for Godot, but specifically for hyperoptimized computation and scientific methodology.
+A curated list of [free](https://www.gnu.org/philosophy/free-sw.html) add-ons and scripts for Godot — specifically those for hyperoptimized computation and scientific methodology.
 
 You can find a general list for free Godot stuff in Godot's own [Awesome Godot](https://github.com/godotengine/awesome-godot).
 
@@ -7,7 +7,7 @@ If you find this interesting, you may want to join our Godot Scientific Discord:
 
 ### What is scientific software?
 
-For the sake of this repository, scientific software is software that is commonly used by scientists to achieve their goals. You may have heard of software such as [NumPy](https://numpy.org), [tensorflow](https://www.tensorflow.org) and [MatLab](https://www.mathworks.com/products/matlab.html). These are the kinds of things we are talking about.
+For the sake of this repository, scientific software is software that is commonly used by scientists to achieve their research goals. You may have heard of software such as [NumPy](https://numpy.org), [tensorflow](https://www.tensorflow.org) and [MatLab](https://www.mathworks.com/products/matlab.html). These are the kinds of things we are talking about.
 
 ### What is hyperoptimized computation?
 
